@@ -4,6 +4,8 @@
 
 import math
 
+from datetime import datetime
+
 
 '''
 存入金额列表
@@ -25,7 +27,11 @@ def main():
         week_add = float(input("请输入每周递增金额:"))
         week_count = int(input("请输入存钱总周数:"))
         amounts = save_money(week_add, week_count)
-        print(amounts)
+        input_date_str = input('请输入日期(yyy-mm-dd):')
+        input_date = datetime.strptime(input_date_str,'%Y-%m-%d')
+        print(input_date.isocalendar())
+        week_num = input_date.isocalendar()[1]
+        print("第{}周存入金额:{}".format(week_num,amounts[week_num -1]))
         print()
         print("-----------------------------")
         print()

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# -*- coding: uft-8 -*-
+# -*- coding: utf-8 -*-
 
 # 将整个模块(somemodule)导入
 import sys
