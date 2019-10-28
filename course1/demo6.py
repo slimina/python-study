@@ -62,6 +62,15 @@ def main():
     for i in range(1, month):
         days += dd[i]
     print("这是{}年的第{}天".format(year, days))
+    print("------------")
+    print("这是{}年的第{}天".format(year, input_date.strftime('%j')))
+
+    for key in dd.keys():
+        print(key)
+    for v in dd.values():
+        print(v)
+    for item in dd.items():
+        print(item)
 
 
 if __name__ == '__main__':
