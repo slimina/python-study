@@ -58,3 +58,29 @@ for key in d.keys(): 遍历key
 for value in d.values(): 遍历value
 for item in d.items(): 遍历项
 ```
+
+# 字符串操作
+```
+len(s) 长度
+isdecimal 只包含十进制字符
+isalpha 只包含字母
+isnumeric 只包含数字字符
+isdigit 只包含数字
+```
+
+# 文件
+```
+open(filename,mode)打开文件
+mode ： r 只读，文件不存在报错
+        w 只写，覆盖写，文件不存在自动创建
+        a 文件末尾追加
+        r+ 读写
+write() 写文件
+writelines()将字符串写入文件
+read 返回包含整个文件的字符串
+readline 文件下一行内容
+readlines 返回整个文件列表  换行符结尾
+close 关闭文件
+
+
+```
