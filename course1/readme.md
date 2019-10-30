@@ -81,6 +81,13 @@ read 返回包含整个文件的字符串
 readline 文件下一行内容
 readlines 返回整个文件列表  换行符结尾
 close 关闭文件
+```
 
+# OOP
+```
+class ClassName:
+    def ___init__(self,...):
+        pass
 
+python是允许多继承
 ```

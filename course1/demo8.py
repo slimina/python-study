@@ -21,6 +21,15 @@ def main():
     print("--------------")
 
     f = open("abc.txt", 'r')
+    line = f.readline()
+    while line != '':
+        print(line)
+        line = f.readline()
+    f.close()
+
+    print("--------------")
+
+    f = open("abc.txt", 'r')
     for s in f.readlines():
         print(s)
     f.close()
