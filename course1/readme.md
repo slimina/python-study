@@ -91,3 +91,28 @@ class ClassName:
 
 python是允许多继承
 ```
+
+# random [随机数](https://docs.python.org/3/library/random.html)
+```
+random() [0,1.0)浮点数
+uniform(a,b) a和b之间的随机浮点数
+randint(a,b) a和b之间的随机整数数,包含a,b
+choice(<list>) 从列表中随机返回一个元素
+shuffle(<list>) 将列表元素随机打乱
+sample(<list>,k) 从指定列表随机获取k个元素
+```
+
+# enumerate
+```
+将可遍历的组合转为索引序列
+for i,v in enumerate(list)
+```
+
+# zip 
+```
+zip([iterable, ...])
+用于将可迭代的对象作为参数，将对象中对应的元素打包成一个个元组，
+然后返回由这些元组组成的列表
+如果各个迭代器的元素个数不一致，则返回列表长度与最短的对象相同，
+利用 * 号操作符，可以将元组解压为列表。
+```
