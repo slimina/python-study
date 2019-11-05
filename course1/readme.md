@@ -90,6 +90,8 @@ class ClassName:
         pass
 
 python是允许多继承
+class ClassName(superClassName...):
+    pass
 ```
 
 # random [随机数](https://docs.python.org/3/library/random.html)
