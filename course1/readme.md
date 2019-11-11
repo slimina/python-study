@@ -118,3 +118,22 @@ zip([iterable, ...])
 如果各个迭代器的元素个数不一致，则返回列表长度与最短的对象相同，
 利用 * 号操作符，可以将元组解压为列表。
 ```
+
+# 数据可视化函数库[matplotlib模块](https://matplotlib.org/gallery.html)
+```
+matplotlib的子模块pyplot提供了2D图表制作的基本函数
+import matplotlib,pyplot as plt
+plt.scatter(x,y) # x，y为坐标的列表
+plt.show()
+```
+
+# NumPy 科学计算库
+```
+1.强大的N维数组对象array
+2.成熟的科学函数库
+3.实用的线性代数、随机数生成函数等
+操作对象是多维数组narray
+narray.shape数组的维度
+创建数组np.array(<list>),np.arrange()...
+改变数组形状reshape
+```
